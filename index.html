@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+
+
+
+
+
+<body>
+    <div class="form-total">
+        <div class="form-image">
+            <img src="../Formulário/imagem/bg.png" alt="">
+        </div>
+
+
+
+
+
+
+
+        <div class="form">
+            <form method="POST" action="./verifica.php">
+
+
+
+
+
+                <div class="form-cb">
+                    <div class="titulo">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+
+                
+                <div class="campos">
+
+
+                    <div class="text-box">
+                        <label for="firstname">Nome</label>
+                        <input id="firstname" type="text" name="nome" placeholder="Digite seu primeiro nome">
+                    </div>
+
+                    <div class="text-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+                    </div>
+                    <div class="text-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+                    </div>
+
+                    <div class="text-box">
+                        <label for="confirmEmail">Confirme seu E-mail</label>
+                        <input id="confirmEmail" type="email" name="confirmEmail" placeholder="Confirme seu e-mail">
+                    </div>
+                    
+
+                    <div class="text-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha">
+                    </div>
+
+
+                    <div class="text-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
